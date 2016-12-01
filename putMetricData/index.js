@@ -32,3 +32,15 @@ module.exports = function (context, req) {
 
     return context.done(null, {status:200, body:{code:200, message:"Ok.", data:req.body}});
 };
+
+// format à mettre en place : 
+// {
+/*                        userID:"testuser001",
+                        namespace:req.query.namespace,
+                        metricTime: new Date(),
+                        metricName: req.query.metricname,
+                        metricValue:Number(req.query.metricvalue),
+                        metricUnit:req.query.metricunit,
+                        dimensionName: req.query.dimensionname,
+                        dimensionValue: req.query.dimensionvalue
+                    }*/

@@ -9,6 +9,7 @@
   "author": "Pierre Gilot",
   "license": "ISC",
   "dependencies": {
+    "async": "^2.1.4",
     "documentdb": "^1.9.0"
   }
 }
